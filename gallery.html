@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@200;600;800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <title>YU_GALLERY</title>
+</head>
+<body>
+
+    <a href="./gallery.html"></a>
+
+    <div style="height: 20px; text-align: center;">
+        <img src="image/time/colon.gif" alt="" id="slide_show">
+       </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js">
+    </script>
+    
+    <script type="text/javascript">
+        <?php
+        $images = array();
+        $folder = 'image/time/';
+        $array_to_js = 'var imgs=[';
+        $all_files = scandir($folder);
+        for ($i=2; $i<=sizeof($all_files)-1; $i++) {
+            $array_to_js.='"'.$folder.$all_files[$i].'",';
+        }
+        echo substr($array_to_js,0,-1).'];';
+        ?>
+        
+        var n = 0;
+        var time = 800;
+        play = setInterval("chgImg()", 3000);
+        
+        function chgImg() {
+        $('#slide_show').fadeOut(time, function() {
+          $(this).attr('src', imgs[n]).fadeIn(time);
+        });
+        
+        n++;
+        if (n>=imgs.length) n = 0;
+        }
+        </script>
+</body>
+</html>

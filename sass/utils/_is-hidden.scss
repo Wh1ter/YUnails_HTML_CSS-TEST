@@ -1,0 +1,10 @@
+.backdrop.is-hidden {
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.backdrop.is-hidden .modal-content {
+    transform: translate(0px, -100%) perspective(600px);
+    opacity: 0;
+}

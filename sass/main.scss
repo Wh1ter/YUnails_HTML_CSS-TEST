@@ -1,14 +1,18 @@
 // utils
 @import "./utils/variables";
+@import "./utils/is-hidden";
 
 
 // base
 @import "./base/base-formater";
 @import "./base/container";
-@import "./base/header";
+@import "./base/common";
 
 
 // components
 @import "./components/gallery";
-@import "./components/hero
-
+@import "./components/hero";
+@import "./components/header";
+@import "./components/footer";
+@import "./components/footer-form";
+@import "./components/footer-social"

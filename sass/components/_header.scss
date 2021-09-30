@@ -3,12 +3,14 @@
     padding-top: 15px;
     padding-bottom: 15px;
     border-bottom: 1px solid #ececec;
+    background-color: blueviolet;
   
     &-container {
       @media screen and (max-width: 767px) {
         display: flex;
         justify-content: space-between;
         align-items: center;
+        // background-color: blueviolet;
       }
     }
   }
@@ -143,7 +145,7 @@
       }  
       &-link {
         font-style: normal;
-        font-weight: 500;
+        font-weight: 700;
         @media screen and (max-width: 767px) {
           font-size: 18px;
           line-height: 1.166;
@@ -288,4 +290,20 @@
         display: flex;
       }
     } 
+  }
+
+  .logo-header {
+    font-family: $secondary-font;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    color: #1dc725;
+  }
+
+  .logo-color-header {
+    font-family: $secondary-font;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    color: #1dc725;
   }

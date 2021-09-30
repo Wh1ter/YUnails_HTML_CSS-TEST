@@ -12,7 +12,6 @@
 
 body {
   font-family: 'Stick No Bills', sans-serif;
-  background-color: #46a365;
 }
 
 *,
@@ -161,25 +160,12 @@ img {
   opacity: 1;
 }
 
-.title {
-  text-align: center;
-  font-size: 50px;
-  color: black;
-}
-
-.price {
-  font-size: 60px;
-}
-
-.priceName {
-  font-size: 80px;
-}
-
 .header {
   position: relative;
   padding-top: 15px;
   padding-bottom: 15px;
   border-bottom: 1px solid #ececec;
+  background-color: blueviolet;
 }
 
 @media screen and (max-width: 767px) {
@@ -227,7 +213,7 @@ img {
   bottom: -5px;
   width: 100%;
   border-radius: 2px;
-  background-color: #2196F3;
+  background-color: #1dc725;
 }
 
 @media screen and (min-width: 768px) {
@@ -274,7 +260,7 @@ img {
 .mobile-menu-btn:hover,
 .mobile-menu-btn:focus {
   cursor: pointer;
-  fill: #2196F3;
+  fill: #1dc725;
 }
 
 .nav-list {
@@ -362,7 +348,7 @@ img {
 
 .address-link {
   font-style: normal;
-  font-weight: 500;
+  font-weight: 700;
   letter-spacing: 0.02em;
   color: #757575;
   -webkit-transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -402,7 +388,7 @@ img {
 .address-svg:hover .address-svg,
 .address-svg:focus .address-svg {
   --color5: $accent-color;
-  fill: #2196F3;
+  fill: #1dc725;
 }
 
 .nav-list-link:hover,
@@ -415,7 +401,7 @@ img {
 .address-link:focus,
 .address-svg:hover,
 .address-svg:focus {
-  color: #2196F3;
+  color: #1dc725;
 }
 
 @media screen and (max-width: 767px) {
@@ -518,6 +504,22 @@ img {
   }
 }
 
+.logo-header {
+  font-family: "Stick No Bills", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  color: #1dc725;
+}
+
+.logo-color-header {
+  font-family: "Stick No Bills", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  color: #1dc725;
+}
+
 .join {
   width: 206px;
   padding-top: 12px;
@@ -562,6 +564,14 @@ img {
   display: flex;
   padding-top: 60px;
   padding-bottom: 60px;
+}
+
+.logo-footer {
+  font-family: "Stick No Bills", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  color: #FFFFFF;
 }
 
 .logo-color-footer {
@@ -747,14 +757,14 @@ img {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   border: none;
   color: #ffffff;
-  background: #2196F3;
+  background: #1dc725;
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
 
 .footer-form-button:hover, .footer-form-button:focus {
-  background-color: #188ce8;
+  background-color: blueviolet;
 }
 
 .footer-form-icon {
@@ -812,7 +822,7 @@ img {
 }
 
 .join-list-links:hover {
-  background-color: #2196F3;
+  background-color: #1dc725;
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
 }
@@ -839,5 +849,41 @@ img {
   width: 20px;
   height: 20px;
   fill: #fff;
+}
+
+.price-main {
+  background-image: url("../img/background/background.jpg");
+  background-size: cover;
+}
+
+.price-title {
+  text-align: center;
+  font-size: 50px;
+  color: black;
+}
+
+.price-ul {
+  font-size: 30px;
+}
+
+.price-name {
+  font-size: 80px;
+}
+
+.price-list:hover,
+.price-list:focus {
+  font-family: 'Roboto', sans-serif;
+  font-size: 40px;
+  text-decoration: underline;
+  cursor: pointer;
+  color: #1dc725;
+  letter-spacing: 0.02em;
+  -webkit-transition: all 400ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: all 400ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.price-list {
+  margin-bottom: 50px;
+  padding-bottom: 50px;
 }
 /*# sourceMappingURL=main.css.map */

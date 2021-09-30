@@ -16,6 +16,56 @@
 </head>
 <body>
 
+  <header class="header">
+    <div class="container header-container">            
+        <a class="logo-link link animate__pulse" href="index.html" aria-label="логотип вебстудии">
+            <span class="logo-header">YU</span>
+            <span class="logo-color-header">nails</span>
+        </a>
+        <button type="button" class="mobile-menu-btn" data-menu-button>
+          <svg width="20" height="20">
+            <use class="icon-menu" href="./img/sprite.svg#icon-menu"></use>
+            <use class="icon-cross" href="./img/sprite.svg#icon-close"></use>
+          </svg>
+        </button>
+        <div class="menu-container" data-menu>
+          <nav class="nav">
+            <ul class="nav-list list">
+              <li class="nav-list-item">
+                  <a class="nav-list-link link" href="index.html">Студія</a>
+              </li>
+              <li class="nav-list-item">
+                  <a class="nav-list-link link current" href="./gallery.html">Галлерея</a>
+              </li>
+              <li class="nav-list-item">
+                  <a class="nav-list-link link" href="">Контакти</a>
+              </li>
+            </ul>
+          </nav>
+          <!--Контактная инфо-->
+          <address class="address">
+              <ul class="address-list-header list">
+                  <li class="address-list-link-header">                              
+                      <a class="address-link link" href="mailto:info@gmail.com">
+                          <svg class="address-svg" width="16" height="12">
+                              <use href="./img/sprite.svg#icon-envelope"></use>
+                          </svg>info@gmail.com
+                      </a>                              
+                  </li>
+                  <li class="address-list-link-header">                              
+                      <a class="address-link link" href="tel:+380961111111">
+                          <svg class="address-svg" width="10" height="16">
+                              <use href="./img/sprite.svg#icon-smartphone"></use>
+                          </svg>
+                            +38 068 749 21 65
+                      </a>                              
+                  </li>
+              </ul>    
+          </address>
+        </div>                                
+</div>
+    </header>
+
     <a href="./gallery.html"></a>
 
    <!-- Container for the image gallery -->
@@ -83,6 +133,86 @@
       </div>
     </div>
   </div>
+
+  <footer class="footer">
+    <div class="footer-section container">
+        <address class="address">
+            <a class="logo-link link" href="index.html" aria-label="логотип вебстудии">
+                <span class="logo-footer">YU</span>
+                <span class="logo-color-footer">nails</span>
+            </a>
+            <ul class="footer-list list">
+                <!--Где мы-->
+                <li class="footer-list-item">
+                    <a class="footer-list-link-location link" href="https://www.google.com.ua/maps/@48.6892637,26.5795453,20z?hl=ru" target="_blank">м.Кам'янець-Подільський</a>
+                </li>
+                <!--Связаться-->
+                <li class="footer-list-item">
+                    <!-- <address class="address"> -->
+                        <a class="footer-list-link link" href="mailto:info@devstudio.com">info@gmail.com</a>
+                    <!-- </address> -->
+                </li>
+                <li class="footer-list-item">
+                    <!-- <address class="address"> -->
+                        <a class="footer-list-link link" href="tel:+380687492165">+38 068 749 21 65</a>
+                    <!-- </address> -->
+                </li>
+            </ul>
+        </address>
+        <div class="join">
+            <h2 class="join-title">ПРИЄДНУЙТЕСЬ</h2>
+            <ul class="join-list list">
+              <li class="join-list-item">
+                <a class="join-list-links" href="">
+                  <svg class="social-join-instagram">
+                    <use href="./img/sprite.svg#icon-instagram">
+                    </use>
+                  </svg>
+                </a>
+              </li>
+              <li class="loin-list-item">
+                <a class="join-list-links" href="">
+                  <svg class="social-join-twitter">
+                    <use href="./img/sprite.svg#icon-twitter">
+                    </use>
+                  </svg>
+                </a>
+              </li>
+              <li class="loin-list-item">
+                <a class="join-list-links" href="">
+                  <svg class="social-join-facebook">
+                    <use href="./img/sprite.svg#icon-facebook">
+                    </use>
+                  </svg>
+                </a>
+              </li>
+              <li class="loin-list-item">
+                <a class="join-list-links" href="">
+                  <svg class="social-join-linkedin">
+                    <use href="./img/sprite.svg#icon-linkedin">
+                    </use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+        </div>
+        <!--Форма подписки футер-->
+    <!-- <form class="footer-form">
+        <div class="footer-form-content">
+            <label class="footer-form-title" for="mail">Підпишіться на розсилку
+            </label>
+            <div class="footer-form-wrapper">
+                <input class="footer-form-input" type="email" name="email" id="mail" placeholder="E-mail">
+                <button class="footer-form-button" type="submit">Підписатись
+                    <svg class="footer-form-icon" width="24" height="24">
+                        <use href="./img/sprite.svg#icon-send-icon"></use>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </form>           -->
+    </div>
+</footer>
 
   <script src="./js/gallery.js" type=""></script>
 

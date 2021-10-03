@@ -1,64 +1,64 @@
 .price-main {
-    // background-image: url('../img/background/background.jpg');
-    // background-size: cover;
-    background-color: #cccccc;
-    border-radius: 15px;
+  // background-image: url('../img/background/background.jpg');
+  // background-size: cover;
+  background-color: rgba(204, 204, 204, 0.4);
+  //   border-radius: 15px;
 }
 
 .price-title {
-    text-align: center;
-    font-size: 50px;
-    color: black;
-    margin-bottom: 20px;
-    padding-top: 20px;
-
+  font-family: "Birthstone", cursive;
+  text-align: center;
+  font-size: 80px;
+  color: black;
+  margin-bottom: 20px;
+  padding-top: 20px;
 }
 
 .price-ul {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 30px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
 }
 
 .price-name {
-    font-size: 80px;
+  font-size: 80px;
 }
 
 .price-list:hover,
 .price-list:focus {
-    font-family: 'Roboto', sans-serif;
-    // font-size: 40px;
-    text-decoration: underline;
-    cursor: pointer;
-    // color: $accent-color;
-    letter-spacing: 0.02em;
-    transition: all 400ms cubic-bezier(0.4, 0, 0.2, 1);
+  font-family: "Roboto", sans-serif;
+  // font-size: 40px;
+  //   text-decoration: underline;
+  cursor: pointer;
+  // color: $accent-color;
+  letter-spacing: 0.02em;
+  transition: all 400ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .price-list {
-    margin-bottom: px;
-    padding-bottom: 50px;
+  margin-bottom: px;
+  padding-bottom: 50px;
 }
 
-.amur {
-    list-style: none;
-    font-size: 20px;
-}
-.love {
-    border-radius: 5px 10px 0 10px;
-    width: 10px;
-    height: 10px;
-    margin: 6px -6px 5px 0;
-    background: red;
-    float: left;
-}
-.love1{
-    border-radius: 10px 5px 10px 0;
-    width: 10px;
-    height: 10px;
-    margin: 6px 5px 5px 0;
-    background: red;
-    float: left;
-}
+// .amur {
+//   list-style: none;
+//   font-size: 20px;
+// }
+// .love {
+//   border-radius: 5px 10px 0 10px;
+//   width: 10px;
+//   height: 10px;
+//   margin: 6px -6px 5px 0;
+//   background: red;
+//   float: left;
+// }
+// .love1 {
+//   border-radius: 10px 5px 10px 0;
+//   width: 10px;
+//   height: 10px;
+//   margin: 6px 5px 5px 0;
+//   background: red;
+//   float: left;
+// }
 
 // ===============================================
 
@@ -99,7 +99,7 @@
 //         url('../images/hero/bg-header-pc.jpg');
 //       background-repeat: no-repeat;
 //     }
-  
+
 //     &-main {
 //       text-align: center;
 //       padding-top: 118px;
@@ -123,7 +123,7 @@
 //       margin-bottom: 30px;
 //     }
 // }
-  
+
 // @media screen and (min-device-pixel-ratio: 2) and (min-width: 320px),
 //     screen and (min-resolution: 192dpi) and (min-width: 320px),
 //     screen and (min-resolution: 2dppx) and (min-width: 320px) {

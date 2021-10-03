@@ -855,20 +855,20 @@ img {
 }
 
 .price-main {
-  background-color: #cccccc;
-  border-radius: 15px;
+  background-color: rgba(204, 204, 204, 0.4);
 }
 
 .price-title {
+  font-family: "Birthstone", cursive;
   text-align: center;
-  font-size: 50px;
+  font-size: 80px;
   color: black;
   margin-bottom: 20px;
   padding-top: 20px;
 }
 
 .price-ul {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 30px;
 }
 
@@ -878,8 +878,7 @@ img {
 
 .price-list:hover,
 .price-list:focus {
-  font-family: 'Roboto', sans-serif;
-  text-decoration: underline;
+  font-family: "Roboto", sans-serif;
   cursor: pointer;
   letter-spacing: 0.02em;
   -webkit-transition: all 400ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -889,29 +888,6 @@ img {
 .price-list {
   margin-bottom: px;
   padding-bottom: 50px;
-}
-
-.amur {
-  list-style: none;
-  font-size: 20px;
-}
-
-.love {
-  border-radius: 5px 10px 0 10px;
-  width: 10px;
-  height: 10px;
-  margin: 6px -6px 5px 0;
-  background: red;
-  float: left;
-}
-
-.love1 {
-  border-radius: 10px 5px 10px 0;
-  width: 10px;
-  height: 10px;
-  margin: 6px 5px 5px 0;
-  background: red;
-  float: left;
 }
 
 video {

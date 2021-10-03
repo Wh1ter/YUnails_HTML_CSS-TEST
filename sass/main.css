@@ -856,6 +856,7 @@ img {
 
 .price-main {
   background-color: #cccccc;
+  border-radius: 15px;
 }
 
 .price-title {
